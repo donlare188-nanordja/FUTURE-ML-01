@@ -135,45 +135,21 @@ Ouvrir Power BI et importer le fichier `predictions_powerbi.csv` pour visualiser
 - Analyse des erreurs (MAPE)
 - Tendances temporelles
 
-## Structure du Projet
-
-sales-forecasting/
-│
-├──  02_production_script.py          # Script de prédiction autonome
-├── 📄 03_api_app.py                    # API REST FastAPI (à faire)
-│
-├── 📁 powerbi/
-│   └──  predictions_powerbi.csv       # Prédictions générées
-
-├── 📁 data/
-│ └── transactions/
-
-│         ├──transactions.csv
-
-│└──train/
-
-│           ├──train.csv
-
-├──holidays_events.csv
-
-├──test.csv
-
-│
-├──  models/
-│   ├──  model_production.pkl         # Modèle en production
-│
-├── 📁 notebooks/
-│   ├── 📄 forcasting.ipynb      
-│ 
-│
-├── 📁 docs/
-│   ├── 📄 technical_documentation.md   # Documentation technique
-│   └──  user_guide.md                # Guide utilisateur
-│
-├── 📄 requirements.txt                 # Dépendances Python
-├── 📄 README.md                        # Ce fichier
-├── 📄 LICENSE                          # License MIT
-└──  .gitignore                       # Fichiers ignorés par Git
+FUTURE-ML-01/
+├── 📄 .gitignore # Fichiers ignorés par Git
+├── 📄 README.md # Ce fichier
+├── 📄 requirements.txt # Dépendances Python
+├── 📁 Script/ # Scripts de production
+│ ├── 📄 02_production_script.py # Prédiction quotidienne
+│ └── 📄 03_api_app.py # API FastAPI
+├── 📁 notebook/ # Notebooks de développement
+│ └── 📄 forecasting.ipynb # Entraînement & évaluation
+├── 📁 powerbi/ # Export pour Power BI
+│ └── 📄 predictions_powerbi.csv # Prédictions formatées
+├── 📁 data/ # ❌ Exclus de Git (trop lourds)
+│ └── 📄 [Sur Google Drive] # 🔗 Lien dans section ci-dessous
+└── 📁 model/ # ❌ Exclus de Git (trop lourds)
+└── 📄 [Sur Google Drive] # 🔗 Lien dans section ci-dessous
 
 ## 📊 Performance du Modèle
 
