@@ -151,6 +151,10 @@ FUTURE-ML-01/
 └── 📁 model/ # ❌ Exclus de Git (trop lourds)
 └── 📄 [Sur Google Drive] # 🔗 Lien dans section ci-dessous
 
+Téléchargez le model entrainé le lien drive: [1SsNSchIDx7V0mAI8uSOt8eGAgQeKXbv6](https://drive.google.com/file/d/1SsNSchIDx7V0mAI8uSOt8eGAgQeKXbv6/view?usp=sharing)
+Téléchargez les datasets combiné pour entrainer le model le lien drive:[[ 1W-](https://drive.google.com/drive/folders/1W-eP7GOs22OJnneBqJvW6mfN1ZFy16PK?usp=sharing)
+
+
 ## 📊 Performance du Modèle
 
 ### Métriques sur le Test Set (20% des données)
