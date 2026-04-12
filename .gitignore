@@ -1,0 +1,8 @@
+# .gitignore
+venv/
+__pycache__/
+.ipynb_checkpoints/
+data/raw/*.csv
+data/processed/*.csv
+models/*.pkl
+outputs/*.csv

@@ -1,0 +1,16 @@
+# Configuration des chemins
+paths:
+  raw_train: "data/raw/train.csv"
+  raw_test: "data/raw/test.csv" # Nouveau
+  raw_transactions: "data/raw/transactions.csv"
+  raw_holidays: "data/raw/holidays_events.csv"
+  model_path: "models/model_production.pkl"
+  output_powerbi: "outputs/predictions_powerbi.csv"
+
+params:
+  store_nbr: 1
+  target: "sales"
+  # ... (autres paramètres)
+  lags: [1, 7, 14, 30]
+  rolling_window: 7
+  test_size: 0.2

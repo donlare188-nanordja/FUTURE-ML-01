@@ -1,0 +1,40 @@
+# =============================================================================
+# SALES FORECASTING PROJECT - Dependencies
+# =============================================================================
+# Installation: pip install -r requirements.txt
+# Python Version: 3.8+
+# =============================================================================
+
+# Data Manipulation
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Model Persistence
+joblib>=1.2.0
+
+# API (Optionnel - pour déploiement web)
+fastapi>=0.95.0
+uvicorn>=0.21.0
+pydantic>=1.10.0
+
+# Logging & Monitoring
+python-dateutil>=2.8.2
+
+# Jupyter (pour développement)
+jupyter>=1.0.0
+ipykernel>=6.21.0
+
+# Testing (Optionnel)
+pytest>=7.3.0
+
+# Code Quality (Optionnel)
+flake8>=6.0.0
+black>=23.3.0
